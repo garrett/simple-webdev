@@ -80,22 +80,22 @@ the subject](http://docs.docker.io/installation/).
 
 #### Quick links to installing on commonly used systems
 
-* [Fedora](http://docs.docker.io/installation/fedora/)
-  (TL;DR: `sudo yum -y install docker-io && sudo systemctl enable docker
-  && sudo systemctl start docker`)
-* [RHEL/CentOS](http://docs.docker.io/installation/rhel/)
-  (TL;DR: It's similar to Fedora, except use `sudo service docker start && sudo chkconfig docker on` instead of systemctl.)
-* [openSUSE](http://docs.docker.io/installation/openSUSE/)
-  (TL;DR: Add a repo, zypper it in, and systemctl it up!)
-* [Ubuntu](http://docs.docker.io/installation/ubuntulinux/)
-  (TL;DR: It depends. Read the docs and figure it out for your version.)
-* [OS X](http://docs.docker.io/installation/mac/)
-  or [read an even a simpler
-  guide](http://arnaudchenyensu.com/how-to-install-docker-on-mac-os-x/)
-  (TL;DR: It's complicated. But works.)
-* [Windows](http://docs.docker.io/installation/windows/)
-  (TL;DR: It's complicated too, but works in a way similar to OS X, but
-  It's probably not as nice to use as anything else listed above.)
+* **[Fedora](http://docs.docker.io/installation/fedora/)** —
+  TL;DR: `sudo yum -y install docker-io && sudo systemctl enable docker
+  && sudo systemctl start docker`
+* **[RHEL/CentOS](http://docs.docker.io/installation/rhel/)** —
+  It's similar to Fedora, except use `sudo service docker start && sudo chkconfig docker on` instead of systemctl.
+* **[openSUSE](http://docs.docker.io/installation/openSUSE/)** —
+  Add a repo, zypper it in, and systemctl it up!
+* **[Ubuntu](http://docs.docker.io/installation/ubuntulinux/)** —
+  It depends. Read the docs and figure it out for your version.
+* **[OS X](http://docs.docker.io/installation/mac/)**
+  (or [read an even a simpler
+  guide](http://arnaudchenyensu.com/how-to-install-docker-on-mac-os-x/)) —
+  Basically: It's complicated. But works.
+* **[Windows](http://docs.docker.io/installation/windows/)** —
+  It's complicated too and works in a way similar to OS X... but
+  it's probably not as nice to use as anything else listed above.
 
 ## License
 
