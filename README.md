@@ -3,7 +3,7 @@
 Thanks to the magic of [Docker](http://docker.io/) and a lot of hard
 work from system packagers of [Fedora](http://fedoraproject.org/) and
 [CentOS](http://centos.org/), it's possible to have a *really simple* web
-development container running **Apache**, *PHP**, and **SQLite**.
+development container running **Apache**, **PHP**, and **SQLite**.
 
 As the title of this Docker container warned you, it's intended to be
 really simple. Don't expect any fancy SQL server like MySQL, Postgres,
