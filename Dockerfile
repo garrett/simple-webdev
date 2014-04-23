@@ -9,6 +9,10 @@ RUN yum -y update --security
 
 RUN echo 'LANG="en_US.UTF-8"' >/etc/default/locale
 
+# Enable .htaccess everywhere, to make development easier
+RUN sed 's/AllowOverride None/AllowOverride All/i' /etc/httpd/conf/httpd.conf > httpd.conf
+RUN mv httpd.conf /etc/httpd/conf/httpd.conf
+
 # Send port 80 (web) out to the real world
 EXPOSE 80
 
